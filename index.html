@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio: Clara Rodríguez</title>
+  <link rel="icon" href="https://img.icons8.com/?size=100&id=MGJpVqJ1dOjv&format=png&color=C850F2">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <a href="#"><strong>Clara.</strong></a>
+    </div>
+    <nav class="barra">
+      <a href="#sobre-mí"><strong>Sobre mí</strong></a>
+      <a href="#habilidades"><strong>Habilidades</strong></a>
+      <a href="#proyectos"><strong>Proyectos</strong></a>
+      <a href="#contacto"><strong>Contacto</strong></a>
+    </nav>
+  </header>
+
+  <!-- SOBRE MÍ -->
+  <section id="sobre-mí">
+    <div class="contenedor-sobre-mí">
+      <div class="presentacion">
+        <h1 class="nombre">Clara Rodríguez</h1>
+        <h2>Desarrolladora Web</h2>
+        <p><span>Hola, soy Clara Rodriguez.</span> Soy una estudiante de programación con un fuerte enfoque en el desarrollo web. Me entusiasma y estoy siempre dispuesta a enfrentar cualquier desafío para alcanzar mis metas en este campo. Mi compromiso con el aprendizaje continuo y la resolución de problemas me impulsa a crear soluciones web innovadoras y de calidad.</p>
+        <a class="boton-pdf" href="archivo/Curriculum.Clara.Rodriguez.pdf" download="curriculum"><strong>Descargar CV</strong></a>
+         <a class= "git-hub" href="//github.com/Nazarethrodriguez"> <img src="img/Github.png" alt="git hub"></a>
+      </div>
+      <img class="foto-perfil-img" src="img/perfil.jpg" alt="clara">
+    </div>
+  </section>
+
+  <!-- HABILIDADES -->
+  <section id="habilidades">
+    <div class="contenedor-habilidades">
+        <div class="contenedor-habilidad">
+          <h3>Habilidades técnicas</h3>
+          <div class="habilidad">
+              <img src="img/html.png" alt="HTML">
+              <p>HTML</p>
+          </div>
+          <div class="habilidad">
+              <img src="img/css.png" alt="CSS">
+              <p>CSS</p>
+          </div>
+          <div class="habilidad">
+            <img src="img/javascript.png" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+          <div class="habilidades-blandas">
+            <h3>Habilidades blandas</h3>
+            <ul>
+              <li>Comunicación Efectiva</li>
+              <li>Trabajo en equipo</li>
+              <li>Adaptabilidad</li>
+              <li>Empatia</li>
+              <li>Creatividad</li>
+            </ul>
+          </div>
+        </div>
+
+        </div>
+      
+      </div>
+    </div>
+    
+  </section>
+
+  <!-- PROYECTOS -->
+  <section id="proyectos">
+    <h2 class="titulo-proyecto">Proyectos</h2>
+    <div class="proyectos-container">
+      <button class="proyecto-button " onclick="showProject('calculadora')">Calculadora de peso en diferentes planetas</button>
+      <button class="proyecto-button" onclick="showProject('galeria')">Galeria de Fotos</button>
+      <button class="proyecto-button" onclick="showProject('mario')">Mario Bros</button>
+      <button class="proyecto-button" onclick="showProject('landing')">Landin Page</button>
+
+        <div id="calculadora" class="proyecto-info proyectoVisible">
+            <img src="img/calculadora.png" alt="calculadora">
+            <h3>Calculadora de peso en diferentes planetas</h3>
+            <p>Es una calculadora en línea que permite a los usuarios ingresar su peso en la Tierra y ver cómo se traduce ese peso en otros planetas, teniendo en cuenta que la gravedad varía según la ubicación.</p>
+            <a href="https://github.com/Nazarethrodriguez/calculadora-de-peso-en-diferentes-planetas.git" class="proyecto-link" target="_blank">Ver repositorio</a>
+        </div>
+
+        <div id="galeria" class="proyecto-info proyectoInvisible">
+            <img src="img/galeria.png" alt="galeria">
+            <h3>Galería de Fotos</h3>
+            <p>Una galería de fotos en la que cada imagen tiene una descripción y se pueden agregar nuevas ingresando su URL en un campo de texto.</p>
+            <a href="https://github.com/Nazarethrodriguez/Claris-Gallery.git" class="proyecto-link" target="_blank">Ver repositorio</a>
+        </div>
+
+        <div id="mario" class="proyecto-info proyectoInvisible">
+            <img src="img/mario bros.png" alt="mario">
+            <h3>Mario Bros</h3>
+            <p>Un juego interactivo inspirado en Mario Bros, que ofrece una experiencia divertida y desafiante con efectos visuales y sonoros.</p>
+            <a href="https://github.com/Nazarethrodriguez/Mario-bros.git" class="proyecto-link" target="_blank">Ver repositorio</a>
+        </div>
+
+        <div id="landing" class="proyecto-info proyectoInvisible">
+            <img src="img/roselab.png" alt="landing page">
+            <h3>Landing Page</h3>
+            <p>Página web informativa para presentar una empresa, su historia y productos. Cuenta con diseño estructurado y navegación intuitiva.</p>
+            <a href="https://github.com/Nazarethrodriguez/Roselab.git" class="proyecto-link" target="_blank">Ver repositorio</a>
+        </div>
+    </div>
+</section>
+
+<!-- PIE DE PAGINA -->
+<section>
+<footer id="contacto">
+  <div class="container">
+    <div class="footer-container">
+      <h2 class="seccion- titulo">Contacto</h2>
+      <div class="contacto-info">
+      <p>Correo: nazarethrodriguez957@gmail.com</p>
+      <p>Teléfono: (+58)412-296-5627</p>
+      <p>Ubicación: Caracas-Venezuela</p>
+      </div>
+      
+      <div class="redes-sociales-links">
+        <a href="#" target="_blank" aria-label="Whatsaap"> <i class="fab fa-whatsaap"></i></a>
+        <a href="#" target="_blank" aria-label="Twitter"> <i class="fab fa-twitter"></i></a>
+        <a href="#"  target="_blank" aria-label="Instagram"> <i class="fab fa-Instagram"></i></a>
+      </div>
+      <div class="img-adicional">
+        <img src="https://espacioeduca.org/wp-content/uploads/2024/03/e-Mesa-de-trabajo-6_3-e1709765936967.png" alt="Espacio-Educa">
+
+      </div>
+
+      <div class="derechos-de-autor">
+        <p>2025:Clara Rodríguez</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  
+</footer>
+</section>
+  
+  <script src="script.js"></script>
+</body>
+</html>
